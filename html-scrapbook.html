@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-scrapbook</title>
+</head>
+<body>
+    <div id=introduction>
+        <h1><u><b>html elements</b></u></h1>
+        <p>This html document will demonstrate what you can do with some of the common html elements.</p>
+    </div><!-- End of introduction-->
+    
+    <div id=setup>
+        <h2><u>Setting up a document</u></h2>
+        <p>
+            These elements are used to set up a html document. You will not necessarily see them when the
+             web page loads, but it is useful for sectioning and targetting with other languages such as CSS 
+             or JavaScript.
+        </p>
+        <p><b>&lt;!DOCTYPE html&gt;</b> is an open element which must be placed at the very beginning of a html document.
+            It tells the browser that the document is html 5. It has no closing tag.
+        </p>
+        <p>
+            <b>&lt;html&gt;</b> is the root element, i.e. top level element. All other element must be nested between 
+            the html tags.<b>&lt;/html&gt;</b>
+        </p>
+        <p>
+            <b>&lt;head&gt;</b>The head element contains the machine-readable information (metadata) about the document, for example, 
+            the document title, style sheets, etc.<b>&lt;/head&gt;</b>
+        </p>
+        <p>
+            <b>&lt;body&gt;</b>The body tags contain/represent the contents of html document. There can only be one &lt;body&gt; 
+            element in a document.<b>&lt;/body&gt;</b>
+        </p>
+        <p>
+            <b>&lt;title&gt;</b>The title element contains the document title which you want to have appear
+             in the browser's title tab.<b>&lt;/title&gt;</b>
+        </p>
+        <p>
+            <b>&lt;header&gt;</b>The header element contains introductory information about the document.<b>&lt;/header&gt;</b>
+        </p>
+        <p>
+            <b>&lt;footer&gt;</b>The footer element contains footnotes, such as information about the author of the section, 
+            copyright data or links to related documents.<b>&lt;/footer&gt;</b>
+        </p>
+    </div><!-- End of setup-->
+
+    <div id=headings>
+        <h2><u>Headings</u></h2>
+        <h1><b>&lt;h1&gt;</b>This is a h1 heading - the largest.<b>&lt;/h1&gt;</b></code></h1>
+        <h2><b>&lt;h2&gt;</b>This is a h2 heading.<b>&lt;/h2&gt;</b></h2>
+        <h3><b>&lt;h3&gt;</b>This is a h3 heading.<b>&lt;/h3&gt;</b></h3>
+        <h4><b>&lt;h4&gt;</b>This is a h4 heading.<b>&lt;/h4&gt;</b></h4>
+        <h5><b>&lt;h5&gt;</b>This is a h5 heading.<b>&lt;/h5&gt;</b></h5>
+        <h6><b>&lt;h6&gt;</b>This is a h6 heading - the smallest.<b>&lt;/h6&gt;</b></h6>
+    </div><!-- End of headings-->
+
+    <div id=display>
+        <h2><u>Displaying text</u></h2>
+        <p>
+           <b>&lt;p&gt;</b>This is the paragraph element.<b>&lt;/p&gt;</b>
+        </p>
+        <p>	
+            <b>&lt;span style="color:red"&gt;</b><span style="color:red">
+            The &lt;span&gt; element is used to wrap a small chunk of text inside a line, and can be used to group elements for styling purposes.
+            For example, we have used &lt;span&gt; to turn the text in this section <b>red</b>.</span><b>&lt;/span&gt;</b>
+        </p>
+        <p>
+            <b>&lt;div&gt;</b>The &lt;div&gt; element is used to divide blocks of text - it doesn't do much on its own
+            (apart from gives a break between sections without the use of &lt;br&gt;), but becomes a useful 
+            container when combined with other codes.<b>&lt;/div&gt;</b>
+          </p>
+        <p>
+            The &lt;q&gt; element indicates that the text is a quotation. In most browsers 
+            the text will be <b>&lt;q&gt;</b><q>enclosed in quotation marks.</q><b>&lt;/q&gt;</b>
+        </p>
+        <p>
+            <code>
+                <b>&lt;code&gt;</b>The code element defines a fragment of computer code. The text surrounded by it is
+                 typically displayed in a monospace font.<b>&lt;/code&gt;</b>
+            </code>
+        </p>
+        <p>
+            The<br> <b>&lt;br&gt;</b> (break) element<br><b>&lt;br&gt;</b> is used to create<br><b>&lt;br&gt;</b>
+             a line break<br><b>&lt;br&gt;</b> in the text.
+        </p>
+    </div><!-- End of display-->
+
+    <div id=lists>
+        <h2><u>Lists</u></h2>
+        <h3>Ordered lists</h3>
+        <p>
+            <b>&lt;ol&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>Ordered lists<b>&lt;/li&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>are numbered lists<b>&lt;/li&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>like this one.<b>&lt;/li&gt;</b><br>
+            <b>&lt;/ol&gt;</b><br>
+            <br>
+            This is how it will actually appear.
+            <ol>
+             <li>Ordered lists</li>
+             <li>are numbered lists</li>
+             <li>like this one.</li>
+            </ol>
+            
+        </p>
+        <h3>Unordered lists</h3>
+        <p>
+            <b>&lt;ul&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>Unordered lists<b>&lt;/li&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>are bullet points<b>&lt;/li&gt;</b><br>
+            &nbsp;&nbsp;<b>&lt;li&gt;</b>like this one.<b>&lt;/li&gt;</b><br>
+            <b>&lt;/ul&gt;</b><br>
+            <br>
+            This is how it will actually appear.
+            <ul>
+             <li>Unordered lists</li>
+             <li>are bullet points</li>
+             <li>like this one.</li>
+            </ul>
+            
+        </p>
+    </div><!-- End of lists-->
+
+    <div id=images&links>
+        <h2><u>Images and Links (or anchors)</u></h2>
+        <p>
+            The &lt;img&gt; element lets you add an image to your webpage.<br>
+            It has no closing tag, and the source (src) must be specified.<br>
+            The  <code>alt</code>  attribute is what appears in the tooltip when you hover over the image.
+            It is best practice to add this, for accessibility and if the image does not load correctly.<br>
+            <b>&lt;img src="\home\arianha\Downloads\sushi.jpg" alt="a plate of sushi" height="200" width="300"/&gt;</b><br><br>
+            <img src="\home\arianha\Downloads\sushi.jpg" alt="a plate of sushi" height="200" width="300"/>
+        </p>
+        
+        <p>
+            The anchor element allows you to add a hyperlink to your webpage.<br>
+            It must list the address of the link using the <code>href</code> attribute.<br>
+            The code <br>
+            <b>&lt;a href=”https://www.manchestercodes.com/”&gt;Manchester Codes&lt;/a&gt;</b><br>
+            will create a link to the Manchester Codes homepage.<br>
+            <a href=”https://www.manchestercodes.com/”>Manchester Codes</a>
+        </p>
+    </div><!-- End of images&links-->
+
+    <div id=tables>
+        <h2><u>Tables</u></h2>
+        <p>
+            You can create tables in html. Below code will give you a simple table, with three columns and five rows.<br>
+            <b>&lt;table&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/th&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;&lt;b&gt;Favourite Colour&lt;/b&gt;&lt;/th&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;&lt;b&gt;Favourite drink&lt;/b&gt;&lt;/th&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Arianha&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Red&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Tea&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Alex&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Black&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Coca-Cola&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Marion&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Green&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Coffee&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Cera&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Purple&lt;/td&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Beer&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &lt;/table&gt;<br></b>
+            <br>This will produce the table below.<br>
+            <table>
+                <tr>
+                 <th><b>Name</b></th>
+                 <th><b>Favourite Colour</b></th>
+                 <th><b>Favourite drink</b></th>
+                </tr>
+                <tr>
+                 <td>Arianha</td>
+                 <td>Red</td>
+                 <td>Tea</td>
+                </tr>
+                <tr>
+                 <td>Alex</td>
+                 <td>Black</td>
+                 <td>Coca-Cola</td>
+                </tr>
+                <tr>
+                 <td>Marion</td>
+                 <td>Green</td>
+                 <td>Coffee</td>
+                </tr>
+                <tr>
+                 <td>Cera</td>
+                 <td>Purple</td>
+                 <td>Beer</td>
+                </tr>
+               </table>
+        </p>
+    </div><!-- End of tables-->
+    
+    <div id=forms&buttons>
+        <h2><u>Forms & Buttons</u></h2>
+        <p>
+            Forms can be created using the <code>form</code> element.<br>
+            E.g. <b>&lt;form action="/url-where-you-want-to-submit-form-data"&gt;&lt;/form&gt;</b><br>
+            Inside the form element should be an &lt;input&gt; element to create a section where the user
+             can input their ideas.<br>
+             You can also add a button to submit the form.<br>
+             Below is the code for achieving this.<br>
+             <b>&lt;form action="\home\arianha\Projects\html-scrapbook"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;input type="text" placeholder="Example form"&gt;&lt;br&gt;<br>
+                &nbsp;&nbsp;&nbsp;&lt;button type="submit">Submit&lt;/button><br>
+                &lt;/form&gt;</b><br>
+            <br>This will produce the below form. <br>
+            <form action="\home\arianha\Projects\html-scrapbook">
+               <input type="text" placeholder="Example form"><br>
+               <button type="submit">Submit</button>
+            </form><br>
+        </p>
+    </div><!--End of forms&buttons-->
+
+</body>
+</html>
